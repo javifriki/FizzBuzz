@@ -55,7 +55,7 @@ which enables basic typesetting when viewed while still being a plaintext format
 editing and version control.
 
 Below is a blank checkbox:
-- [ ] Put an X in the [ ] (with no spaces) to mark this as done!
+- [x] Put an X in the [ ] (with no spaces) to mark this as done!
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -74,7 +74,7 @@ Formally as a coding task, let `i` be an integer greater than zero and output th
 * If `i` is divisible by 3 and 5, print the string `Fizz Buzz` (note the space)
 * Otherwise, print the value of `i`
 
-- [ ] Try a short game of Fizz Buzz with your team now.
+- [x] Try a short game of Fizz Buzz with your team now.
 
 ---
 
@@ -133,7 +133,7 @@ class FizzBuzz {
 }
 ```
 
-- [ ] Open `FizzBuzz.java` in the `src/lab1` directory and click the run button in the top left corner.
+- [x] Open `FizzBuzz.java` in the `src/lab1` directory and click the run button in the top left corner.
 
 If you don't see this button, you may need to mark `src` as the `Sources Root` for the project. You can do this
 by right-clicking the `src` directory in the `Project` tab and near the bottom of the context menu
@@ -153,7 +153,7 @@ the code are doing. For example, what's the Java version of Python's `and`? What
 on with that weird `for` loop? As you do this, you might find it useful to write down your
 own implementation in Python to help you begin to create a mapping between the two languages.
 
-- [ ] Make note of any specific Java syntax which stands out to you and compare what you
+- [x] Make note of any specific Java syntax which stands out to you and compare what you
 come up with the rest of your team. Try to come up with a list of at least five things that
 strike you as either similar to or different from Python.
 
@@ -177,7 +177,7 @@ method `main` in the file you choose to run.
 
 ### Task 1.1: Rewrite this using `while`
 
-- [ ] You've puzzled through how Java `for` and `if` statements work; now rewrite this
+- [x] You've puzzled through how Java `for` and `if` statements work; now rewrite this
 to use a `while` loop instead of a `for` loop.
 
 ## How to test this code
@@ -457,10 +457,12 @@ def multiples(n: int = 1000, a: int = 3, b: int = 5) -> int:
 > provide similar functionality with different syntax.
 
 Once you complete these steps, you can copy the `MultiplesDefaultTest.java` file into the `test/lab1` directory
-and run the tests in it to check your work.
+and run the tests in it to check your work — debugging as needed.
 
 - [ ] Use git to push your updated `Multiples.java` file to GitHub and run the self tests again on MarkUs.
 
+> Since MarkUs already has your GitHub URL, you don't need to "resubmit" that; you can just rerun the self
+> tests on MarkUs, and it will clone a copy of your most recent code from GitHub. Neat!
 
 And that's it for the first lab activity of the term!
 
@@ -522,20 +524,19 @@ Here is one more small coding problem similar to the Multiples problem for extra
 Starting with a number n, if n is even divide it by 2. If n is odd, subtract 1. Repeat.
 
 For example, if you start with n = 2, the answer is 2.
-Details: 2 (even, divide by 2) --> 1 (odd, subtract 1) --> 0.
+
+> Details: 2 (even, divide by 2) --> 1 (odd, subtract 1) --> 0.
 
 - [ ] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
   Add this file to your project, commit, and push.
 
-Similar to what you did for `Multiples.java`, modify the code so that you can easily test it by extracting
+- [ ] Similar to what you did for `Multiples.java`, modify the code so that you can easily test it by extracting
 a helper method called `reduce`. Then generalize that helper to take in `n` as a parameter.
 
 Once you complete these steps, you can copy the `ReduceTest.java` file into the `test/lab1` directory
-and run the tests.
+and run the tests — debugging as needed.
 
-Finally, `add`, `commit`, and `push` your `Reduce.java`. Since MarkUs already has your GitHub URL,
-you don't need to "resubmit" that; you can just rerun the self tests on MarkUs and it will use your
-most recent code from GitHub.
+- [ ] Finally, `add`, `commit`, and `push` your `Reduce.java` — then rerun the self tests on MarkUs.
 
 ## Further practice
 

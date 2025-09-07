@@ -1,8 +1,10 @@
+package lab1;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /*
-  One of the tests on MarkUs
+  Test for overloading multiples.
  */
 public class MultiplesDefaultTest {
 
@@ -12,7 +14,7 @@ public class MultiplesDefaultTest {
     public void testDefault() {
         assertEquals(466,
                 Multiples.multiples(),
-                "lab1.Multiples.main() is incorrect for default values");
+                "Multiples.multiples() is incorrect for default values");
     }
 
 }

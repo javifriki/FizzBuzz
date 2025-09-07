@@ -1,44 +1,46 @@
+package lab1;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /*
-  Reminder: There are no hidden tests for this assignment.
+  Some simple test cases for reduce.
  */
 public class ReduceTest {
 
 
     @Test
-    public void testMain() {
+    public void testReduce() {
         assertEquals(9,
                 Reduce.reduce(100),
-                "Reduce.main(100) is incorrect");
+                "Reduce.reduce(100) is incorrect");
     }
 
     @Test
-    public void testMainTwoHundred() {
+    public void testReduceTwoHundred() {
         assertEquals(10,
                 Reduce.reduce(200),
-                "Reduce.main(200) is incorrect");
+                "Reduce.reduce(200) is incorrect");
     }
 
     @Test
-    public void testMainFortyTwo() {
+    public void testReduceFortyTwo() {
         assertEquals(8,
                 Reduce.reduce(42),
-                "Reduce.main(42) is incorrect");
+                "Reduce.reduce(42) is incorrect");
     }
 
     @Test
-    public void testOne() {
+    public void testReduceOne() {
         assertEquals(1,
                 Reduce.reduce(1),
-                "Reduce.main(1) is incorrect");
+                "Reduce.reduce(1) is incorrect");
     }
 
     @Test
-    public void testTwo() {
+    public void testReduceTwo() {
         assertEquals(2,
                 Reduce.reduce(2),
-                "Reduce.main(2) is incorrect");
+                "Reduce.reduce(2) is incorrect");
     }
 }
