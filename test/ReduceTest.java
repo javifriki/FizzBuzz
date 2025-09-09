@@ -1,5 +1,4 @@
-package lab1;
-
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -11,7 +10,7 @@ public class ReduceTest {
 
     @Test
     public void testReduce() {
-        assertEquals(9,
+        Assertions.assertEquals(9,
                 Reduce.reduce(100),
                 "Reduce.reduce(100) is incorrect");
     }

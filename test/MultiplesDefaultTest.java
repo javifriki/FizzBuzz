@@ -1,5 +1,4 @@
-package lab1;
-
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -8,12 +7,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 public class MultiplesDefaultTest {
 
-    // TODO: When you are ready to test task X,
-    //  copy this file into the test folder.
     @Test
     public void testDefault() {
-        assertEquals(466,
-                Multiples.multiples(),
+        String[] args = {};
+        Assertions.assertEquals(466,
+                Multiples.main(args),
                 "Multiples.multiples() is incorrect for default values");
     }
 

@@ -1,5 +1,4 @@
-package lab1;
-
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 /*
@@ -7,12 +6,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 public class MultiplesTest {
 
-    // TODO: When you are ready to test task X,
-    //  copy this file into the test folder.
-
     @Test
     public void testFifteen() {
-        assertEquals(7,
+        Assertions.assertEquals(7,
                 Multiples.multiples(16, 3, 5),
                 "Multiples.multiples(16, 3, 5) is incorrect, the values" +
                         " it should be counting are: 3, 5, 6, 9, 10, 12, 15");

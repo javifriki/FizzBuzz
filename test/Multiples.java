@@ -1,5 +1,3 @@
-package lab1;
-
 public class Multiples {
     public static int main(String[] args){
         return multiples();
